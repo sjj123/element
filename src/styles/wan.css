@@ -1,0 +1,22 @@
+.wan-title-box {
+    align-items:center;/*垂直居中*/
+}
+.wan-listTitle {
+    vertical-align: middle;
+    position: relative;
+    padding-left: 10px;
+}
+.wan-listTitle::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px; 
+    height: 20px;
+    background: #409EFF;
+    border-radius: 3px;
+}
+.pageBox {
+    text-align: right;
+    padding: 20px 0;
+}
